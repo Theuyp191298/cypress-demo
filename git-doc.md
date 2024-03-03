@@ -13,6 +13,7 @@ Là git repository tức là 1 kho chưa code, nó sẽ có GUI và tích hợp 
 
 ## 1 số câu lệnh phổ biến
 - git init: khởi tạo git cho 1 project
+- git branch: xem các branch đang có trên local (trên remote reposotpry có thể có rất nhiều branch nhưng ở local chưa chắc có,, nếu chưa có, ta dùng git checkout <tên branch>)
 - git checkout: để chuyển từ branch này sang branch khác, hoặc thêm -b để thêm 1 branch mới
 - git pull: kéo những thay đổi mới về local đồng thời merge nó vào branch hiện tại
 - git fetch: kéo những thay đổi mới về local nhưng chưa merge luôn
